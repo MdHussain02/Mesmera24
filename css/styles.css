@@ -2673,6 +2673,38 @@ button.btn--pill {
     border-radius: 1000px !important;
 }
 
+
+
+/* special t shirt booking */
+
+.button-container {
+    margin-top: 20px; /* Adjust the top margin as needed */
+    text-align: center; /* Center-align the button */
+}
+
+/* CSS for button styling */
+.book-now-button {
+    
+}
+
+/* Hover effect */
+.book-now-button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+    border-color: #45a049; /* Darker green border color on hover */
+    color: #fff; /* White text color on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced box shadow on hover */
+}
+
+/* special t shirt booking 
+
+
+
+
+
+
+
+
+
 /* ===================================================================
  * # TABLE
  *
@@ -4192,7 +4224,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    /*background-color: black;*/
+    background-color: black;
     padding-top: var(--vspace-6);
     padding-bottom: var(--vspace-5);
     color: rgba(255, 255, 255, 0.35);
