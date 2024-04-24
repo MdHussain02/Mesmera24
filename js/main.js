@@ -577,6 +577,11 @@ particlesJS('particles-js', {
 function scrollToSection(sectionId) {
     var section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+        section.classList.add('smooth-scroll'); // Add the smooth-scroll class
+        section.scrollIntoView({ behavior: 'smooth' });
+        // Remove the smooth-scroll class after the animation finishes
+        setTimeout(() => {
+            section.classList.remove('smooth-scroll');
+        }, 500); // Adjust the time to match the animation duration
     }
-  }
+}
