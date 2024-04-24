@@ -2700,31 +2700,40 @@ button.btn--pill {
 /* special t shirt booking 
 
 /* styles.css */
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
 #floatingBtn {
     position: fixed;
-    bottom: 40px; /* Move the button further down */
-    left: 20px; /* Adjust as needed */
-    width: 70px; /* Increase the size of the button */
-    height: 70px; /* Increase the size of the button */
-    border-radius: 50%; /* Make the button round */
-    background-color: #f0f0f0; /* Set gray shade */
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    bottom: 40px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-  }
-  
-  #floatingBtn img {
-    width: 50%; /* Adjust the size of the icon */
+    animation: flip 5s infinite; /* Add animation with a 5-second interval */
+}
+
+#floatingBtn img {
+    width: 50%;
     height: auto;
     position: relative;
-    top: 12px; /* Move the PNG more down */
-  }
-  
-
-
-
+    top: 12px;
+}
 
 
 
