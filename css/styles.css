@@ -2699,7 +2699,29 @@ button.btn--pill {
 }
 /* special t shirt booking 
 
-
+/* styles.css */
+#floatingBtn {
+    position: fixed;
+    bottom: 40px; /* Move the button further down */
+    left: 20px; /* Adjust as needed */
+    width: 70px; /* Increase the size of the button */
+    height: 70px; /* Increase the size of the button */
+    border-radius: 50%; /* Make the button round */
+    background-color: #f0f0f0; /* Set gray shade */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  #floatingBtn img {
+    width: 50%; /* Adjust the size of the icon */
+    height: auto;
+    position: relative;
+    top: 12px; /* Move the PNG more down */
+  }
+  
 
 
 
