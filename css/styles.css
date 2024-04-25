@@ -5098,3 +5098,17 @@ img.u-pull-left {
         display: none;
     }
 }
+
+
+
+.folio-item__thumb {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align items to the bottom */
+    margin-top: 50px; /* Adjust the top margin to move the video down */
+}
+
+.folio-item__thumb video {
+    width: 80%; /* Adjust the width as needed */
+    height: auto;
+}
