@@ -779,6 +779,11 @@ textarea {
     .tab-full {
         width: 100%;
     }
+    .s-intro_arcite{
+        max-width: 300px; /* Adjust the maximum width of the logo */
+    display: block; /* Ensures the logo is displayed as a block element */
+    margin: 20px auto 0;
+    }
 }
 
 /* -------------------------------------------------------------------
@@ -816,6 +821,12 @@ textarea {
     .mob-full {
         width: 100%;
     }
+
+    .s-intro_arcite{
+        max-width: 300px; /* Adjust the maximum width of the logo */
+    display: block; /* Ensures the logo is displayed as a block element */
+    margin: 20px auto 0;
+    }
 }
 
 /* -------------------------------------------------------------------
@@ -842,6 +853,12 @@ textarea {
     }
     [class*='col-'] + [class*='col-'].end {
         float: none;
+    }
+
+    .s-intro_arcite{
+        max-width: 300px; /* Adjust the maximum width of the logo */
+    display: block; /* Ensures the logo is displayed as a block element */
+    margin: 20px auto 0;
     }
 }
 
