@@ -3831,8 +3831,7 @@ img.u-pull-left {
     color: white;
     margin-top: 0;
     max-width: 300px;
-    display: block; /* Ensures the logo is displayed as a block element */
-    margin: 20px auto 0;
+    
 }
 
 .s-intro__title {
