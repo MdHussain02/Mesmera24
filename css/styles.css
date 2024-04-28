@@ -5115,3 +5115,28 @@ img.u-pull-left {
 
 
 
+.arcite {
+    max-width: 300px; /* Adjust the maximum width of the logo */
+    display: block; /* Ensures the logo is displayed as a block element */
+    margin: 20px auto 0; /* Adjust the margins to center the logo horizontally */
+}
+
+.powered-by-msg {
+    font-family: 'Montserrat', sans-serif; /* Change the font family to Montserrat */
+    font-weight: 200; /* Set the font weight to thin */
+    font-size: 28px; /* Adjust the font size of the message */
+    color: #ffffff; /* Adjust the color of the message */
+    margin-top: 10px; /* Adjust the top margin as needed */
+    text-align: center; /* Center-align the message */
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: fadeIn 3s ease forwards; /* Apply the fadeIn animation with a longer duration */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1; /* End with opacity 1 */
+    }
+}
